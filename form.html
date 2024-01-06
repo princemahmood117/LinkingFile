@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./CSS/nav.css">
+
+    <style>
+        label{
+            display: block;
+            padding: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <Form>
+        <label for="name"> Name
+            <input type="text" placeholder="Name">
+        </label>
+        <label for="email"> Email
+            <input type="email" placeholder="Email">
+        </label>
+        <label for="password"> Password
+            <input type="password" placeholder="Password">
+        </label>
+
+        <button>Submit</button>
+<br> <br> <br>
+        <fieldset>
+            <legend>Pick Pitha</legend>
+
+            <label for="chitoi">
+                <input type="radio" name="pitha" id="chitoi"> Chitoi
+            </label>
+
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa"> Vapa
+            </label>
+
+
+            <label for=""></label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Pick Vorta</legend>
+
+            <label for="sorisha">
+                <input type="checkbox" name="" id="sorisha"> Sorisha Vorta
+            </label>
+
+            <label for="shutki">
+                <input type="checkbox" name="" id="shutki"> Shutki Vorta
+            </label>
+
+            <label for="jiraa">
+                <input type="checkbox" name="" id="jiraa"> Jiraa Vorta
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <textarea placeholder="Your Feedback:" name="" id="" cols="100" rows="5"></textarea>
+        </fieldset>
+
+        <input class="sub" type="submit" value="Submit">
+
+        <input class="res" type="reset" value="Reset">
+    </Form>
+
+    
+</body>
+</html>

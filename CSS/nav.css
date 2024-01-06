@@ -1,0 +1,72 @@
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+nav li a{
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(240, 229, 229);
+    text-decoration: none;
+    background-color: rgb(127, 82, 179);
+    border-radius: 3px;
+}
+
+nav li:hover{
+
+background-color: lightgray;
+padding: 10px;
+transition: 0.5s;
+
+}
+
+.mou{
+    font-size: 20px;
+}
+
+caption img{
+    border: 1px solid black;
+}
+.head{
+    text-align: center;
+    font-style: italic;
+}
+
+form input{
+    padding: 5px;
+}
+
+form button{
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+
+
+.sub{
+    margin-top: 10px;
+    background-color: chartreuse;
+    padding: 10px;
+    
+}
+
+.res{
+    margin-left: 10px;
+    background-color: brown;
+    padding: 10px;
+}
+
+.res:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+
+.sub:hover{
+    background-color: green;
+    transition: 0.5s;
+}
